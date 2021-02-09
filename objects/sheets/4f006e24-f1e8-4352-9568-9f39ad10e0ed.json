@@ -1,14 +1,14 @@
 {
   "qProperty": {
     "qInfo": {
-      "qId": "56ddf18b-e8ed-44be-843c-e01ed24f283f",
+      "qId": "4f006e24-f1e8-4352-9568-9f39ad10e0ed",
       "qType": "sheet"
     },
     "qMetaDef": {
-      "title": "Prazos Renovatórios",
+      "title": "Renovações - Mensal",
       "description": ""
     },
-    "rank": -2,
+    "rank": -1,
     "thumbnail": {
       "qStaticContentUrlDef": {}
     },
@@ -16,7 +16,7 @@
     "rows": 12,
     "cells": [
       {
-        "name": "EchpXQ",
+        "name": "QWzgm",
         "type": "filterpane",
         "col": 0,
         "row": 0,
@@ -30,7 +30,7 @@
         }
       },
       {
-        "name": "YajGLaj",
+        "name": "tKfFN",
         "type": "TableBox",
         "col": 0,
         "row": 1,
@@ -58,7 +58,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "EchpXQ",
+          "qId": "QWzgm",
           "qType": "filterpane"
         },
         "qMetaDef": {},
@@ -79,7 +79,148 @@
         {
           "qProperty": {
             "qInfo": {
-              "qId": "bc6595b8-f748-4297-9bfb-c29271f1bdd5",
+              "qId": "47a46593-5989-4de2-b2f9-04c464918034",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "WJLkDbg",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [
+                  "MesAnoBaseRenovacao"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": -1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": false,
+                "cId": "WBymJdB"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": {
+              "qStringExpression": {
+                "qExpr": "='Mes Ano'"
+              }
+            },
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "2a9675cf-68c5-4060-8dbb-e088a054e8e8",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "AnoDataBase"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": -1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": false,
+                "cId": "mbhVXm"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Ano",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "a35f8798-822d-4002-97b5-1cbeb5e850ef",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "MesDataBase"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "KmWWu"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Mês",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "85ad5bf0-7164-4b5f-ab93-d5ea393d939a",
               "qType": "listbox"
             },
             "qMetaDef": {},
@@ -101,7 +242,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "gkHJFQ"
+                "cId": "uybYUaP"
               },
               "qFrequencyMode": "N",
               "qShowAlternatives": true,
@@ -126,7 +267,7 @@
         {
           "qProperty": {
             "qInfo": {
-              "qId": "2d35b8d6-681d-4585-aba0-684c164e07b4",
+              "qId": "fafff5a7-cfcd-4d10-ab38-c41c39350b4d",
               "qType": "listbox"
             },
             "qMetaDef": {},
@@ -148,7 +289,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "mPZmuNt"
+                "cId": "sPFyxGs"
               },
               "qFrequencyMode": "N",
               "qShowAlternatives": true,
@@ -169,7 +310,7 @@
         {
           "qProperty": {
             "qInfo": {
-              "qId": "b18ebab1-408f-4ce1-be38-14417739762d",
+              "qId": "28bfb468-1d99-436e-9102-af8b315fe359",
               "qType": "listbox"
             },
             "qMetaDef": {},
@@ -191,7 +332,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "SZamET"
+                "cId": "Uahkv"
               },
               "qFrequencyMode": "N",
               "qShowAlternatives": true,
@@ -208,264 +349,36 @@
             "visualization": "listbox"
           },
           "qChildren": []
-        },
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "4838b208-f8ed-429e-8e62-10591ae7b7a6",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "99540878-073b-450c-bcdf-696578d8936f",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "rjpXsU"
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": [],
-              "qOtherTotalSpec": {}
-            },
-            "showTitles": true,
-            "title": {
-              "qStringExpression": {
-                "qExpr": "'Status'"
-              }
-            },
-            "subtitle": "",
-            "footnote": "",
-            "disableNavMenu": false,
-            "showDetails": false,
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        },
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "4e36bd5e-dd80-4802-b071-6b5e2a456de0",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "d4bfd798-cec7-42e5-be36-97852bf1b683",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "HYGaVje"
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": [],
-              "qOtherTotalSpec": {}
-            },
-            "showTitles": true,
-            "title": {
-              "qStringExpression": {
-                "qExpr": "'Departamento'"
-              }
-            },
-            "subtitle": "",
-            "footnote": "",
-            "disableNavMenu": false,
-            "showDetails": false,
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        },
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "97aeca21-30d6-43e3-bd61-b62a5ef3960d",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "Xpa",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "cPFvcJ"
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": [],
-              "qOtherTotalSpec": {}
-            },
-            "showTitles": true,
-            "title": "Prazo Renovacao Vencendo",
-            "subtitle": "",
-            "footnote": "",
-            "disableNavMenu": false,
-            "showDetails": false,
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        },
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "d10efd28-f2ea-4e4f-9325-dff4066c8d2c",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "GHupST",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "vWmqj"
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": [],
-              "qOtherTotalSpec": {}
-            },
-            "showTitles": true,
-            "title": "Prazo Vigencia Vencendo",
-            "subtitle": "",
-            "footnote": "",
-            "disableNavMenu": false,
-            "showDetails": false,
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        },
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "c89598e9-9307-43a3-a03f-2127d707a9e1",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "mmpDZb",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "KTZgHR"
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": [],
-              "qOtherTotalSpec": {}
-            },
-            "showTitles": true,
-            "title": {
-              "qStringExpression": {
-                "qExpr": "'Status Vencimento'"
-              }
-            },
-            "subtitle": "",
-            "footnote": "",
-            "disableNavMenu": false,
-            "showDetails": false,
-            "visualization": "listbox"
-          },
-          "qChildren": []
         }
       ]
     },
     {
       "qProperty": {
         "qInfo": {
-          "qId": "YajGLaj",
+          "qId": "tKfFN",
           "qType": "TableBox"
         },
         "qMetaDef": {},
         "qHyperCubeDef": {
           "qDimensions": [
             {
-              "qLibraryId": "yZtxEv",
+              "qLibraryId": "WJLkDbg",
               "qDef": {
                 "qGrouping": "N",
                 "qFieldDefs": [],
                 "qFieldLabels": [],
                 "qSortCriterias": [
                   {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
                     "qSortByLoadOrder": 1,
-                    "qSortByExpression": 1,
-                    "qExpression": {
-                      "qv": "OrdenacaoContratosRenovacao"
-                    }
+                    "qExpression": {}
                   }
                 ],
                 "qNumberPresentations": [],
                 "qActiveField": 0,
-                "autoSort": false,
-                "cId": "LzxpUV",
+                "autoSort": true,
+                "cId": "hmZgmex",
                 "othersLabel": "Outros",
                 "ColWidth": 100,
                 "HeaderAlignation": "center",
@@ -473,11 +386,7 @@
                 "txtcolorHeader": "='#000'",
                 "colSpanHeader": 0,
                 "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                }
+                "hide": false
               },
               "qOtherTotalSpec": {
                 "qOtherMode": "OTHER_OFF",
@@ -530,9 +439,7 @@
               "qCalcCondition": {
                 "qCond": {},
                 "qMsg": {}
-              },
-              "title": "ContratoComDigito",
-              "othersLabel": "Outros"
+              }
             },
             {
               "qDef": {
@@ -630,7 +537,6 @@
                 "qFieldLabels": [],
                 "qSortCriterias": [
                   {
-                    "qSortByNumeric": 1,
                     "qSortByAscii": 1,
                     "qSortByLoadOrder": 1,
                     "qExpression": {}
@@ -638,7 +544,7 @@
                 ],
                 "qNumberPresentations": [],
                 "qActiveField": 0,
-                "autoSort": true,
+                "autoSort": false,
                 "cId": "agupX",
                 "othersLabel": "Outros",
                 "ColWidth": 100,
@@ -709,7 +615,7 @@
               "othersLabel": "Outros"
             },
             {
-              "qLibraryId": "8ff19463-70f8-40c2-aa98-5b5006450d4e",
+              "qLibraryId": "DPFBxN",
               "qDef": {
                 "qGrouping": "N",
                 "qFieldDefs": [],
@@ -723,10 +629,9 @@
                   }
                 ],
                 "qNumberPresentations": [],
-                "qReverseSort": true,
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "VcxByrS",
+                "cId": "qApWBBn",
                 "othersLabel": "Outros",
                 "ColWidth": 100,
                 "HeaderAlignation": "center",
@@ -734,11 +639,7 @@
                 "txtcolorHeader": "='#000'",
                 "colSpanHeader": 0,
                 "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                }
+                "hide": false
               },
               "qOtherTotalSpec": {
                 "qOtherMode": "OTHER_OFF",
@@ -791,12 +692,10 @@
               "qCalcCondition": {
                 "qCond": {},
                 "qMsg": {}
-              },
-              "title": "PrazoVigenciaDescritivo",
-              "othersLabel": "Outros"
+              }
             },
             {
-              "qLibraryId": "67957779-2a98-4636-a731-4ab485289c60",
+              "qLibraryId": "XkaJnx",
               "qDef": {
                 "qGrouping": "N",
                 "qFieldDefs": [],
@@ -810,10 +709,9 @@
                   }
                 ],
                 "qNumberPresentations": [],
-                "qReverseSort": true,
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "RyKPXV",
+                "cId": "pLqCyHG",
                 "othersLabel": "Outros",
                 "ColWidth": 100,
                 "HeaderAlignation": "center",
@@ -821,11 +719,7 @@
                 "txtcolorHeader": "='#000'",
                 "colSpanHeader": 0,
                 "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                }
+                "hide": false
               },
               "qOtherTotalSpec": {
                 "qOtherMode": "OTHER_OFF",
@@ -878,101 +772,10 @@
               "qCalcCondition": {
                 "qCond": {},
                 "qMsg": {}
-              },
-              "title": "DataInicioOrigemContrato",
-              "othersLabel": "Outros"
+              }
             },
             {
-              "qLibraryId": "3b20ddb8-0d7b-4443-ac52-09d1692f62d1",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qReverseSort": true,
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "QwTFFyg",
-                "othersLabel": "Outros",
-                "ColWidth": 100,
-                "HeaderAlignation": "center",
-                "backgroundcolorHeader": "='white'",
-                "txtcolorHeader": "='#000'",
-                "colSpanHeader": 0,
-                "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                }
-              },
-              "qOtherTotalSpec": {
-                "qOtherMode": "OTHER_OFF",
-                "qOtherCounted": {
-                  "qv": "10"
-                },
-                "qOtherLimit": {
-                  "qv": "0"
-                },
-                "qOtherLimitMode": "OTHER_GE_LIMIT",
-                "qForceBadValueKeeping": true,
-                "qApplyEvenWhenPossiblyWrongResult": true,
-                "qOtherSortMode": "OTHER_SORT_DESCENDING",
-                "qTotalMode": "TOTAL_OFF",
-                "qReferencedExpression": {}
-              },
-              "qOtherLabel": {
-                "qv": "Outros"
-              },
-              "qTotalLabel": {},
-              "qCalcCond": {},
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "\r\nIF(StatusVencimentoOriginal='Vencido',RGB(255,255,255),'#000')",
-                  "qAttribute": true,
-                  "id": "cellBackgroundColor"
-                },
-                {
-                  "qExpression": "IF(StatusVencimentoOriginal='Vencido',RGB(128,128,128))",
-                  "qAttribute": true,
-                  "id": "cellForegroundColor"
-                },
-                {
-                  "qExpression": "3",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "='12'",
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                }
-              ],
-              "qAttributeDimensions": [],
-              "qCalcCondition": {
-                "qCond": {},
-                "qMsg": {}
-              },
-              "title": "DataFimFormalContrato",
-              "othersLabel": "Outros"
-            },
-            {
-              "qLibraryId": "tfrfd",
+              "qLibraryId": "sAVTSBn",
               "qDef": {
                 "qGrouping": "N",
                 "qFieldDefs": [],
@@ -988,7 +791,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "nGXPxP",
+                "cId": "nJeTHq",
                 "othersLabel": "Outros",
                 "ColWidth": 100,
                 "HeaderAlignation": "center",
@@ -996,11 +799,7 @@
                 "txtcolorHeader": "='#000'",
                 "colSpanHeader": 0,
                 "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                }
+                "hide": false
               },
               "qOtherTotalSpec": {
                 "qOtherMode": "OTHER_OFF",
@@ -1053,369 +852,435 @@
               "qCalcCondition": {
                 "qCond": {},
                 "qMsg": {}
-              },
-              "title": "DataInicioPrazoRenovacao",
-              "othersLabel": "Outros"
-            },
-            {
-              "qLibraryId": "HnQGrn",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByNumeric": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": false,
-                "cId": "fRDjjA",
-                "othersLabel": "Outros",
-                "ColWidth": 100,
-                "HeaderAlignation": "center",
-                "backgroundcolorHeader": "='white'",
-                "txtcolorHeader": "='#000'",
-                "colSpanHeader": 0,
-                "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                }
-              },
-              "qOtherTotalSpec": {
-                "qOtherMode": "OTHER_OFF",
-                "qOtherCounted": {
-                  "qv": "10"
-                },
-                "qOtherLimit": {
-                  "qv": "0"
-                },
-                "qOtherLimitMode": "OTHER_GE_LIMIT",
-                "qForceBadValueKeeping": true,
-                "qApplyEvenWhenPossiblyWrongResult": true,
-                "qOtherSortMode": "OTHER_SORT_DESCENDING",
-                "qTotalMode": "TOTAL_OFF",
-                "qReferencedExpression": {}
-              },
-              "qOtherLabel": {
-                "qv": "Outros"
-              },
-              "qTotalLabel": {},
-              "qCalcCond": {},
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "if(StatusVencimentoOriginal='Vencido','#fff','#000')",
-                  "qAttribute": true,
-                  "id": "cellBackgroundColor"
-                },
-                {
-                  "qExpression": "=IF(FlagPrazoRenovacaoEncerrando=1,RGB(180,180,180), \tif(StatusVencimentoOriginal='Vencido',RGB(128,128,128)))",
-                  "qAttribute": true,
-                  "id": "cellForegroundColor"
-                },
-                {
-                  "qExpression": "3",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "='12'",
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                }
-              ],
-              "qAttributeDimensions": [],
-              "qCalcCondition": {
-                "qCond": {},
-                "qMsg": {}
-              },
-              "title": "DataFimPrazoRenovacao",
-              "othersLabel": "Outros"
-            },
-            {
-              "qLibraryId": "99540878-073b-450c-bcdf-696578d8936f",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "afPKAb",
-                "othersLabel": "Outros",
-                "ColWidth": 100,
-                "HeaderAlignation": "center",
-                "backgroundcolorHeader": "='white'",
-                "txtcolorHeader": "='#000'",
-                "colSpanHeader": 0,
-                "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                }
-              },
-              "qOtherTotalSpec": {
-                "qOtherMode": "OTHER_OFF",
-                "qOtherCounted": {
-                  "qv": "10"
-                },
-                "qOtherLimit": {
-                  "qv": "0"
-                },
-                "qOtherLimitMode": "OTHER_GE_LIMIT",
-                "qForceBadValueKeeping": true,
-                "qApplyEvenWhenPossiblyWrongResult": true,
-                "qOtherSortMode": "OTHER_SORT_DESCENDING",
-                "qTotalMode": "TOTAL_OFF",
-                "qReferencedExpression": {}
-              },
-              "qOtherLabel": {
-                "qv": "Outros"
-              },
-              "qTotalLabel": {},
-              "qCalcCond": {},
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "='#000'",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "='white'",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "1",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "='12'",
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                }
-              ],
-              "qAttributeDimensions": [],
-              "qCalcCondition": {
-                "qCond": {},
-                "qMsg": {}
-              },
-              "title": "StatusRenovacao",
-              "othersLabel": "Outros"
-            },
-            {
-              "qLibraryId": "d4bfd798-cec7-42e5-be36-97852bf1b683",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "BKAGgxL",
-                "othersLabel": "Outros",
-                "ColWidth": 100,
-                "HeaderAlignation": "center",
-                "backgroundcolorHeader": "='white'",
-                "txtcolorHeader": "='#000'",
-                "colSpanHeader": 0,
-                "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                }
-              },
-              "qOtherTotalSpec": {
-                "qOtherMode": "OTHER_OFF",
-                "qOtherCounted": {
-                  "qv": "10"
-                },
-                "qOtherLimit": {
-                  "qv": "0"
-                },
-                "qOtherLimitMode": "OTHER_GE_LIMIT",
-                "qForceBadValueKeeping": true,
-                "qApplyEvenWhenPossiblyWrongResult": true,
-                "qOtherSortMode": "OTHER_SORT_DESCENDING",
-                "qTotalMode": "TOTAL_OFF",
-                "qReferencedExpression": {}
-              },
-              "qOtherLabel": {
-                "qv": "Outros"
-              },
-              "qTotalLabel": {},
-              "qCalcCond": {},
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "='#000'",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "='white'",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "1",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "='12'",
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                }
-              ],
-              "qAttributeDimensions": [],
-              "qCalcCondition": {
-                "qCond": {},
-                "qMsg": {}
-              },
-              "title": "DepartamentoRenovacao",
-              "othersLabel": "Outros"
-            },
-            {
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [
-                  "='O'"
-                ],
-                "qFieldLabels": [
-                  "Farol de Vencimento"
-                ],
-                "qSortCriterias": [
-                  {
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "tZTqQvj",
-                "othersLabel": "Outros",
-                "ColWidth": 100,
-                "HeaderAlignation": "center",
-                "backgroundcolorHeader": "='white'",
-                "txtcolorHeader": "='#000'",
-                "colSpanHeader": 0,
-                "NavigationType": "1",
-                "hide": false,
-                "textAlign": {
-                  "auto": false,
-                  "align": "center"
-                }
-              },
-              "qOtherTotalSpec": {
-                "qOtherMode": "OTHER_OFF",
-                "qOtherCounted": {
-                  "qv": "10"
-                },
-                "qOtherLimit": {
-                  "qv": "0"
-                },
-                "qOtherLimitMode": "OTHER_GE_LIMIT",
-                "qForceBadValueKeeping": true,
-                "qApplyEvenWhenPossiblyWrongResult": true,
-                "qOtherSortMode": "OTHER_SORT_DESCENDING",
-                "qTotalMode": "TOTAL_OFF",
-                "qReferencedExpression": {}
-              },
-              "qOtherLabel": {
-                "qv": "Outros"
-              },
-              "qTotalLabel": {},
-              "qCalcCond": {},
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "IF(FlagPrazoRenovacaoEncerrando=1,rgb(255,255,0),\r\n\tif(StatusVencimentoOriginal='Vencido',rgb(255,0,0),\n    rgb(0,255,0)))",
-                  "qAttribute": true,
-                  "id": "cellForegroundColor"
-                },
-                {
-                  "qExpression": "='white'",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "1",
-                  "qAttribute": true
-                },
-                {
-                  "qExpression": "='12'",
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                },
-                {
-                  "qAttribute": true
-                }
-              ],
-              "qAttributeDimensions": [],
-              "qCalcCondition": {
-                "qCond": {},
-                "qMsg": {}
-              },
-              "othersLabel": "Outros"
+              }
             }
           ],
-          "qMeasures": [],
+          "qMeasures": [
+            {
+              "qLibraryId": "YCTEjkL",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "zVqVWD",
+                "numFormatFromTemplate": true,
+                "ColWidth": 100,
+                "HeaderAlignation": "center",
+                "backgroundcolorHeader": "='white'",
+                "txtcolorHeader": "='#000'",
+                "colSpanHeader": 0,
+                "hide": false,
+                "mesNavEnable": false,
+                "MesSheetNavigation": "",
+                "mesCellNavEnable": false,
+                "mesSelEnable": false,
+                "quarantine": {
+                  "qNumFormat": {},
+                  "isCustomFormatted": false
+                }
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "='#000'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='white'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "3",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='12'",
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qLibraryId": "985efeaa-0b66-40ff-a926-df866a1194f3",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "pUpFTD",
+                "numFormatFromTemplate": true,
+                "ColWidth": 100,
+                "HeaderAlignation": "center",
+                "backgroundcolorHeader": "='white'",
+                "txtcolorHeader": "='#000'",
+                "colSpanHeader": 0,
+                "hide": false,
+                "mesNavEnable": false,
+                "MesSheetNavigation": "",
+                "mesCellNavEnable": false,
+                "mesSelEnable": false,
+                "quarantine": {
+                  "qNumFormat": {},
+                  "isCustomFormatted": false
+                }
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "='#000'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='white'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "3",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='12'",
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qLibraryId": "MAuJrmN",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "NjgDFhb",
+                "numFormatFromTemplate": true,
+                "ColWidth": 100,
+                "HeaderAlignation": "center",
+                "backgroundcolorHeader": "='white'",
+                "txtcolorHeader": "='#000'",
+                "colSpanHeader": 0,
+                "hide": false,
+                "mesNavEnable": false,
+                "MesSheetNavigation": "",
+                "mesCellNavEnable": false,
+                "mesSelEnable": false,
+                "quarantine": {
+                  "qNumFormat": {},
+                  "isCustomFormatted": false
+                }
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "='#000'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='white'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "3",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='12'",
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qLibraryId": "6a447fb8-558b-47ae-9d42-00d6b29b693c",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0,00",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "BhVwMCQ",
+                "numFormatFromTemplate": true,
+                "ColWidth": 100,
+                "HeaderAlignation": "center",
+                "backgroundcolorHeader": "='white'",
+                "txtcolorHeader": "='#000'",
+                "colSpanHeader": 0,
+                "hide": false,
+                "mesNavEnable": false,
+                "MesSheetNavigation": "",
+                "mesCellNavEnable": false,
+                "mesSelEnable": false,
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "='#000'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='white'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "3",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='12'",
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qLibraryId": "ryUgj",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "AdAcpap",
+                "numFormatFromTemplate": true,
+                "ColWidth": 100,
+                "HeaderAlignation": "center",
+                "backgroundcolorHeader": "='white'",
+                "txtcolorHeader": "='#000'",
+                "colSpanHeader": 0,
+                "hide": false,
+                "mesNavEnable": false,
+                "MesSheetNavigation": "",
+                "mesCellNavEnable": false,
+                "mesSelEnable": false,
+                "quarantine": {
+                  "qNumFormat": {},
+                  "isCustomFormatted": false
+                }
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "='#000'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='white'",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "3",
+                  "qAttribute": true
+                },
+                {
+                  "qExpression": "='12'",
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
           "qInterColumnSortOrder": [
-            7,
-            3,
             0,
             1,
-            5,
-            4,
-            6,
             2,
+            4,
+            3,
+            5,
+            6,
+            7,
             8,
             9,
             10
@@ -1508,13 +1373,13 @@
         "customWidth": false,
         "tableWidth": "100%",
         "wraptext": false,
-        "BorderColor": "#ddd",
+        "BorderColor": "#000",
         "headerFontSizeshow": true,
         "headerFontSize": 16,
         "DefaultHeaderStyle": true,
         "Headercss": "",
-        "HeaderColor": "#000",
-        "HeaderBgColor": "RGB(208,206,206)",
+        "HeaderColor": "#FFF",
+        "HeaderBgColor": "RGB(192,0,0)",
         "HeaderCellPadding": "2px 5px",
         "DefaultTotalStyle": true,
         "TotalColor": "#fff",

@@ -8,6 +8,8 @@ Created By WedersonCD(Wederson Cabral Domingues) at Tue Feb 09 2021 10:10:32 GMT
 
 Sheet Title | Description
 ------------ | -------------
+Renovações - Total Ano|
+Renovações - Mensal|
 Prazos Renovatórios|
 
 

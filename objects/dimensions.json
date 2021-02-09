@@ -90,11 +90,11 @@
       "qFieldLabels": [
         "StatusRenovacao"
       ],
-      "qLabelExpression": "'Status Renovação'",
+      "qLabelExpression": "'Status Renovacao'",
       "title": "StatusRenovacao",
       "coloring": {
         "colorMapRef": "99540878-073b-450c-bcdf-696578d8936f",
-        "changeHash": "0.4065302593767579"
+        "changeHash": "0.21353009493690034"
       }
     },
     "qMetaDef": {
@@ -116,9 +116,11 @@
       "qFieldLabels": [
         "ABL"
       ],
+      "qLabelExpression": "'Area m²'",
       "title": "ABL",
       "coloring": {
-        "changeHash": "0.5581193279020293"
+        "changeHash": "0.8010335183643018",
+        "colorMapRef": "DPFBxN"
       }
     },
     "qMetaDef": {
@@ -164,15 +166,65 @@
       "qFieldLabels": [
         "DataFimPrazoRenovacao"
       ],
-      "qLabelExpression": "'Fim Prazo Ação Renovatória'",
+      "qLabelExpression": "'Fim Prazo Acao Renovatoria'",
       "title": "DataFimPrazoRenovacao",
       "coloring": {
-        "changeHash": "0.2832684501412752",
+        "changeHash": "0.28854745321054276",
         "colorMapRef": "HnQGrn"
       }
     },
     "qMetaDef": {
       "title": "DataFimPrazoRenovacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "WJLkDbg",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "MesAnoBaseRenovacao"
+      ],
+      "qFieldLabels": [
+        "Mês Ano Base"
+      ],
+      "qLabelExpression": "='Mes Ano'",
+      "title": "Mês Ano Base",
+      "coloring": {
+        "changeHash": "0.7514708076783627"
+      }
+    },
+    "qMetaDef": {
+      "title": "Mês Ano Base",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "XkaJnx",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DataInicioLocacao"
+      ],
+      "qFieldLabels": [
+        "DataInicioLocacao"
+      ],
+      "qLabelExpression": "'Inicio Locacao'",
+      "title": "DataInicioLocacao",
+      "coloring": {
+        "changeHash": "0.8642378714307981"
+      }
+    },
+    "qMetaDef": {
+      "title": "DataInicioLocacao",
       "description": "",
       "tags": []
     }
@@ -279,6 +331,54 @@
   },
   {
     "qInfo": {
+      "qId": "hXUXEG",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "AnoDataBase"
+      ],
+      "qFieldLabels": [
+        "Ano"
+      ],
+      "title": "Ano",
+      "coloring": {
+        "changeHash": "0.5207307852648067"
+      }
+    },
+    "qMetaDef": {
+      "title": "Ano",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mJtXtP",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "MesDataBase"
+      ],
+      "qFieldLabels": [
+        "Mês"
+      ],
+      "title": "Mês",
+      "coloring": {
+        "changeHash": "0.25606338525184835"
+      }
+    },
+    "qMetaDef": {
+      "title": "Mês",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
       "qId": "mmpDZb",
       "qType": "dimension"
     },
@@ -305,6 +405,31 @@
   },
   {
     "qInfo": {
+      "qId": "sAVTSBn",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DataFimLocacao"
+      ],
+      "qFieldLabels": [
+        "DataFimLocacao"
+      ],
+      "qLabelExpression": "'Fim Locacao'",
+      "title": "DataFimLocacao",
+      "coloring": {
+        "changeHash": "0.6139691261847438"
+      }
+    },
+    "qMetaDef": {
+      "title": "DataFimLocacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
       "qId": "tfrfd",
       "qType": "dimension"
     },
@@ -316,15 +441,40 @@
       "qFieldLabels": [
         "DataInicioPrazoRenovacao"
       ],
-      "qLabelExpression": "'Inicio Prazo Ação Renovatória'",
+      "qLabelExpression": "'Inicio Prazo Acao Renovatoria'",
       "title": "DataInicioPrazoRenovacao",
       "coloring": {
-        "changeHash": "0.22099937625397015",
+        "changeHash": "0.8750787147326973",
         "colorMapRef": "tfrfd"
       }
     },
     "qMetaDef": {
       "title": "DataInicioPrazoRenovacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "wzTbgp",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ValorAluguelRenovacao"
+      ],
+      "qFieldLabels": [
+        "ValorAluguelRenovacao"
+      ],
+      "qLabelExpression": "'Alug Renov.'",
+      "title": "ValorAluguelRenovacao",
+      "coloring": {
+        "changeHash": "0.6957478298676043"
+      }
+    },
+    "qMetaDef": {
+      "title": "ValorAluguelRenovacao",
       "description": "",
       "tags": []
     }

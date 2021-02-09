@@ -1,1 +1,10 @@
 ///$tab DATA
+TabDataBaes:
+LOAD	DISTINCT
+	DATE(DATE#('01/01/2000') + rowno())		AS	DataBase,
+    YEAR(DATE#('01/01/2000') + rowno())		AS	AnoDataBase,
+    MONTH(DATE#('01/01/2000') + rowno())	AS	MesDataBase,
+    MonthName(DATE#('01/01/2000') + rowno())AS	MesAnoDataBase
+AutoGenerate
+	AddYears(TODAY(),1)-DATE#('01/01/2000')
+;

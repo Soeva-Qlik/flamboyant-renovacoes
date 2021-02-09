@@ -2,7 +2,7 @@
 TabLuc:
 LOAD
     idContrato,
-    "Nome Fantasia"	as	Lojista,
+    LojistaSemAcento as	Lojista,
     DataFim	AS	DataFimContrato,
     ContratoComDigito,
     LUC,
@@ -18,15 +18,10 @@ LOAD
 	PrazoDeVigenciaEmAnos,
     PrazoVigenciaDescritivo,
 	DataInicioPrazoRenovacao,
-    ULtimaluc,
-    UltimoABL,
     FlagPrazoRenovacaoEncerrando,
     [Prazo Renovacao Vencendo],
-    UltimaLucLojista,
-    UltimoABLLojista,
     FlagVigenciaContratoEncerrando,
-	[Prazo Vigencia Vencendo],
-    FlagLucTemporaria
+	[Prazo Vigencia Vencendo]
 FROM 
 	[lib://2.Transform/TabLucDesconto.qvd](qvd)
 WHERE
@@ -35,4 +30,19 @@ WHERE
     //O unico deposito que pode entrar é o DP-01 ( Jerivá )
     and (FlagLucDeposito=0 OR LUC = 'DP-01')
     and NOT Match(ContratoComDigito,'00216-0','00924-5','00934-2')
+;
+TabRenovacao:
+LOAD
+    idContrato,
+    HASH128(idContrato,MonthName(DataBase))	as %LinkRenovacaoAnterior,
+    DataFim			AS	DataFimLocacao,
+    DataInicio		AS	DataInicioLocacao,
+    ValorAluguel	AS	ValorAluguelRenovacao,
+    DataBase,
+    MonthName(DataBase)	AS	MesAnoBaseRenovacao
+FROM
+	[lib://2.Transform/TabAlteracoesContratuais.qvd](qvd)
+WHERE
+	//Somente devem ser consideradas acoes renovatórias
+	CodMotivoAlteracao=6
 ;

@@ -3,7 +3,7 @@
     "qIsHidden": true,
     "qIsSystem": true,
     "qName": "$Field",
-    "qCardinal": 28,
+    "qCardinal": 32,
     "qTags": [
       "$text",
       "$ascii",
@@ -17,7 +17,7 @@
     "qIsHidden": true,
     "qIsSystem": true,
     "qName": "$FieldNo",
-    "qCardinal": 26,
+    "qCardinal": 21,
     "qTags": [
       "$numeric",
       "$integer",
@@ -30,7 +30,7 @@
     "qIsHidden": true,
     "qIsSystem": true,
     "qName": "$Fields",
-    "qCardinal": 2,
+    "qCardinal": 4,
     "qTags": [
       "$numeric",
       "$integer",
@@ -56,7 +56,7 @@
     "qIsHidden": true,
     "qIsSystem": true,
     "qName": "$Rows",
-    "qCardinal": 2,
+    "qCardinal": 4,
     "qTags": [
       "$numeric",
       "$integer",
@@ -69,7 +69,7 @@
     "qIsHidden": true,
     "qIsSystem": true,
     "qName": "$Table",
-    "qCardinal": 2,
+    "qCardinal": 4,
     "qTags": [
       "$text",
       "$ascii",
@@ -80,6 +80,19 @@
     "qSrcTables": []
   },
   {
+    "qName": "%LinkRenovacaoAnterior",
+    "qCardinal": 331,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabRenovacao",
+      "TabValorRenovacaoAnterior"
+    ]
+  },
+  {
     "qName": "ABL",
     "qCardinal": 247,
     "qTags": [
@@ -87,6 +100,17 @@
     ],
     "qSrcTables": [
       "TabLuc"
+    ]
+  },
+  {
+    "qName": "AnoDataBase",
+    "qCardinal": 23,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabDataBaes"
     ]
   },
   {
@@ -101,16 +125,18 @@
     ]
   },
   {
-    "qName": "Data",
-    "qCardinal": 75,
+    "qName": "DataBase",
+    "qCardinal": 8076,
     "qTags": [
       "$numeric",
       "$integer",
       "$timestamp",
-      "$date"
+      "$date",
+      "$key"
     ],
     "qSrcTables": [
-      "Fato"
+      "TabRenovacao",
+      "TabDataBaes"
     ]
   },
   {
@@ -128,7 +154,7 @@
   },
   {
     "qName": "DataFimFormalContrato",
-    "qCardinal": 71,
+    "qCardinal": 69,
     "qTags": [
       "$numeric",
       "$integer",
@@ -140,8 +166,21 @@
     ]
   },
   {
+    "qName": "DataFimLocacao",
+    "qCardinal": 149,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabRenovacao"
+    ]
+  },
+  {
     "qName": "DataFimPrazoRenovacao",
-    "qCardinal": 71,
+    "qCardinal": 69,
     "qTags": [
       "$numeric",
       "$integer",
@@ -166,8 +205,21 @@
     ]
   },
   {
+    "qName": "DataInicioLocacao",
+    "qCardinal": 117,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabRenovacao"
+    ]
+  },
+  {
     "qName": "DataInicioOrigemContrato",
-    "qCardinal": 104,
+    "qCardinal": 103,
     "qTags": [
       "$numeric",
       "$integer",
@@ -180,7 +232,7 @@
   },
   {
     "qName": "DataInicioPrazoRenovacao",
-    "qCardinal": 71,
+    "qCardinal": 69,
     "qTags": [
       "$numeric",
       "$integer",
@@ -195,21 +247,22 @@
     "qName": "DepartamentoRenovacao",
     "qCardinal": 2,
     "qTags": [
-      "$text"
+      "$text",
+      "$ascii"
     ],
     "qSrcTables": [
       "TabLuc"
     ]
   },
   {
-    "qName": "FlagLucTemporaria",
+    "qName": "FlagContratosRenovados",
     "qCardinal": 1,
     "qTags": [
       "$numeric",
       "$integer"
     ],
     "qSrcTables": [
-      "TabLuc"
+      "TabValorRenovacaoAnterior"
     ]
   },
   {
@@ -256,8 +309,45 @@
     ]
   },
   {
+    "qName": "MesAnoBaseRenovacao",
+    "qCardinal": 119,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabRenovacao"
+    ]
+  },
+  {
+    "qName": "MesAnoDataBase",
+    "qCardinal": 266,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabDataBaes"
+    ]
+  },
+  {
+    "qName": "MesDataBase",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabDataBaes"
+    ]
+  },
+  {
     "qName": "OrdenacaoContratosRenovacao",
-    "qCardinal": 71,
+    "qCardinal": 69,
     "qTags": [
       "$numeric",
       "$integer"
@@ -312,7 +402,8 @@
     "qName": "StatusRenovacao",
     "qCardinal": 2,
     "qTags": [
-      "$text"
+      "$text",
+      "$ascii"
     ],
     "qSrcTables": [
       "TabLuc"
@@ -330,60 +421,28 @@
     ]
   },
   {
-    "qName": "ULtimaluc",
-    "qCardinal": 255,
-    "qTags": [
-      "$text",
-      "$ascii"
-    ],
-    "qSrcTables": [
-      "TabLuc"
-    ]
-  },
-  {
-    "qName": "UltimaLucLojista",
-    "qCardinal": 251,
-    "qTags": [
-      "$text",
-      "$ascii"
-    ],
-    "qSrcTables": [
-      "TabLuc"
-    ]
-  },
-  {
-    "qName": "UltimoABL",
-    "qCardinal": 247,
+    "qName": "ValorAluguelRenovacao",
+    "qCardinal": 233,
     "qTags": [
       "$numeric"
     ],
     "qSrcTables": [
-      "TabLuc"
+      "TabRenovacao"
     ]
   },
   {
-    "qName": "UltimoABLLojista",
-    "qCardinal": 243,
+    "qName": "ValorAnteriorRenovacao",
+    "qCardinal": 137,
     "qTags": [
       "$numeric"
     ],
     "qSrcTables": [
-      "TabLuc"
-    ]
-  },
-  {
-    "qName": "ValorAluguelContratual",
-    "qCardinal": 5645,
-    "qTags": [
-      "$numeric"
-    ],
-    "qSrcTables": [
-      "Fato"
+      "TabValorRenovacaoAnterior"
     ]
   },
   {
     "qName": "idContrato",
-    "qCardinal": 1248,
+    "qCardinal": 383,
     "qTags": [
       "$text",
       "$ascii",
@@ -391,7 +450,7 @@
     ],
     "qSrcTables": [
       "TabLuc",
-      "Fato"
+      "TabRenovacao"
     ]
   }
 ]

@@ -28,5 +28,35 @@
     },
     "qDefinition": "Relacionamento",
     "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "751ca7f9-ddef-48bf-a578-fa0b38f034a8",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMaiorAno",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=MAX(AnoDataBase)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "db953291-54c4-43ea-b599-768536ffbc64",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMenorAno",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=MAX(AnoDataBase)-1",
+    "tags": []
   }
 ]

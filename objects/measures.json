@@ -1,1 +1,176 @@
-[]
+[
+  {
+    "qInfo": {
+      "qId": "6a447fb8-558b-47ae-9d42-00d6b29b693c",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "ValorAluguelRenovacaoM²",
+      "qDef": "SUM(ValorAluguelRenovacao) / sum(ABL)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "'Alug Renov. m²'",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "ValorAluguelRenovacaoM²",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "985efeaa-0b66-40ff-a926-df866a1194f3",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "ValorAnteriorRenovacaoM²",
+      "qDef": "Sum(ValorAnteriorRenovacao) / sum(ABL)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "'Alug. Anterior m²'",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "ValorAnteriorRenovacaoM²",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "MAuJrmN",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "ValorAluguelRenovacao",
+      "qDef": "SUM(ValorAluguelRenovacao)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "'Alug Renov.'",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "ValorAluguelRenovacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "YCTEjkL",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "ValorAnteriorRenovacao",
+      "qDef": "Sum(ValorAnteriorRenovacao)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "'Alug. Anterior'",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "ValorAnteriorRenovacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "pcurpd",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "QtdContratosRenovados",
+      "qDef": "COUNT(DISTINCT {<FlagRenovacao={1}>} idContrato)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "'Quant. Renovacoes'",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "QtdContratosRenovados",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ryUgj",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "PercCrescimentoAluguel",
+      "qDef": "sum(ValorAluguelRenovacao)/sum(ValorAnteriorRenovacao)-1",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "'% Cresc'",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "0,00%",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "PercCrescimentoAluguel",
+      "description": "",
+      "tags": []
+    }
+  }
+]
