@@ -1,0 +1,19 @@
+{
+  "qTitle": "Renovações",
+  "qLastReloadTime": "2021-02-09T13:01:29.513Z",
+  "qMigrationHash": "504d4e39a7133ee172fbe29aa58348b1e4054149",
+  "qSavedInProductVersion": "12.811.6",
+  "qThumbnail": {
+    "qUrl": "/content/Default/LogoCond.jpeg"
+  },
+  "createdDate": "2021-02-03T11:33:13.236Z",
+  "modifiedDate": "2021-02-09T13:06:41.971Z",
+  "published": true,
+  "publishTime": "2021-02-09T13:06:41.105Z",
+  "description": "",
+  "dynamicColor": "hsla(0,18%,43%,1)",
+  "stream": {
+    "id": "887e5397-a9f1-4592-9e25-d9af0aa092e4",
+    "name": "Relacionamento"
+  }
+}

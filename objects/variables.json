@@ -1,0 +1,32 @@
+[
+  {
+    "qInfo": {
+      "qId": "0c2663dd-df29-4829-86d0-63e256499bb8",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAplicativo",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Renovações",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "1da2f8df-9a75-4aa2-b4c8-15e84ec33c90",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vControleAcessoPasta",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Relacionamento",
+    "qIsScriptCreated": true
+  }
+]

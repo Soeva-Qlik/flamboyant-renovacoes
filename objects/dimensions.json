@@ -1,0 +1,357 @@
+[
+  {
+    "qInfo": {
+      "qId": "3b20ddb8-0d7b-4443-ac52-09d1692f62d1",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DataFimFormalContrato"
+      ],
+      "qFieldLabels": [
+        "DataFimFormalContrato"
+      ],
+      "qLabelExpression": "'Data Fim Contrato ( Formal )'",
+      "title": "DataFimFormalContrato",
+      "coloring": {
+        "colorMapRef": "3b20ddb8-0d7b-4443-ac52-09d1692f62d1",
+        "changeHash": "0.07671635294826173"
+      }
+    },
+    "qMetaDef": {
+      "title": "DataFimFormalContrato",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "67957779-2a98-4636-a731-4ab485289c60",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DataInicioOrigemContrato"
+      ],
+      "qFieldLabels": [
+        "DataInicioOrigemContrato"
+      ],
+      "qLabelExpression": "'Data Inicio Contrato ( Formal )'",
+      "title": "DataInicioOrigemContrato",
+      "coloring": {
+        "colorMapRef": "67957779-2a98-4636-a731-4ab485289c60",
+        "changeHash": "0.002630035808304676"
+      }
+    },
+    "qMetaDef": {
+      "title": "DataInicioOrigemContrato",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "8ff19463-70f8-40c2-aa98-5b5006450d4e",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "PrazoVigenciaDescritivo"
+      ],
+      "qFieldLabels": [
+        "PrazoVigenciaDescritivo"
+      ],
+      "qLabelExpression": "'Prazo Vigencia ( Em Anos)'",
+      "title": "PrazoVigenciaDescritivo",
+      "coloring": {
+        "colorMapRef": "8ff19463-70f8-40c2-aa98-5b5006450d4e",
+        "changeHash": "0.8372614203802828"
+      }
+    },
+    "qMetaDef": {
+      "title": "PrazoVigenciaDescritivo",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "99540878-073b-450c-bcdf-696578d8936f",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "StatusRenovacao"
+      ],
+      "qFieldLabels": [
+        "StatusRenovacao"
+      ],
+      "qLabelExpression": "'Status Renovação'",
+      "title": "StatusRenovacao",
+      "coloring": {
+        "colorMapRef": "99540878-073b-450c-bcdf-696578d8936f",
+        "changeHash": "0.4065302593767579"
+      }
+    },
+    "qMetaDef": {
+      "title": "StatusRenovacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DPFBxN",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ABL"
+      ],
+      "qFieldLabels": [
+        "ABL"
+      ],
+      "title": "ABL",
+      "coloring": {
+        "changeHash": "0.5581193279020293"
+      }
+    },
+    "qMetaDef": {
+      "title": "ABL",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "GHupST",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Prazo Vigencia Vencendo"
+      ],
+      "qFieldLabels": [
+        "Prazo Vigencia Vencendo"
+      ],
+      "title": "Prazo Vigencia Vencendo",
+      "coloring": {
+        "changeHash": "0.23888104063075977"
+      }
+    },
+    "qMetaDef": {
+      "title": "Prazo Vigencia Vencendo",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "HnQGrn",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DataFimPrazoRenovacao"
+      ],
+      "qFieldLabels": [
+        "DataFimPrazoRenovacao"
+      ],
+      "qLabelExpression": "'Fim Prazo Ação Renovatória'",
+      "title": "DataFimPrazoRenovacao",
+      "coloring": {
+        "changeHash": "0.2832684501412752",
+        "colorMapRef": "HnQGrn"
+      }
+    },
+    "qMetaDef": {
+      "title": "DataFimPrazoRenovacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "Xpa",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Prazo Renovacao Vencendo"
+      ],
+      "qFieldLabels": [
+        "Prazo Renovacao Vencendo"
+      ],
+      "title": "Prazo Renovacao Vencendo",
+      "coloring": {
+        "changeHash": "0.5185899327245698"
+      }
+    },
+    "qMetaDef": {
+      "title": "Prazo Renovacao Vencendo",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "be26f484-9f95-4e52-aeda-19352fd7f80d",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "LUC"
+      ],
+      "qFieldLabels": [
+        "LUC"
+      ],
+      "title": "LUC",
+      "coloring": {
+        "colorMapRef": "DPFBxN",
+        "changeHash": "0.4191993503668028"
+      }
+    },
+    "qMetaDef": {
+      "title": "LUC",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "d4bfd798-cec7-42e5-be36-97852bf1b683",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DepartamentoRenovacao"
+      ],
+      "qFieldLabels": [
+        "DepartamentoRenovacao"
+      ],
+      "qLabelExpression": "'Departamento'",
+      "title": "DepartamentoRenovacao",
+      "coloring": {
+        "colorMapRef": "tfrfd",
+        "changeHash": "0.1358639351206279"
+      }
+    },
+    "qMetaDef": {
+      "title": "DepartamentoRenovacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "fd09ca8f-d0fd-4f74-9b8c-aa8fe5bf1a3c",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Lojista"
+      ],
+      "qFieldLabels": [
+        "Lojista"
+      ],
+      "title": "Lojista",
+      "coloring": {
+        "colorMapRef": "DPFBxN",
+        "changeHash": "0.4521558469883329"
+      }
+    },
+    "qMetaDef": {
+      "title": "Lojista",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mmpDZb",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "StatusVencimentoOriginal"
+      ],
+      "qFieldLabels": [
+        "StatusVencimentoOriginal"
+      ],
+      "qLabelExpression": "'Status Vencimento'",
+      "title": "StatusVencimentoOriginal",
+      "coloring": {
+        "changeHash": "0.7715378202374101",
+        "colorMapRef": "mmpDZb"
+      }
+    },
+    "qMetaDef": {
+      "title": "StatusVencimentoOriginal",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "tfrfd",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DataInicioPrazoRenovacao"
+      ],
+      "qFieldLabels": [
+        "DataInicioPrazoRenovacao"
+      ],
+      "qLabelExpression": "'Inicio Prazo Ação Renovatória'",
+      "title": "DataInicioPrazoRenovacao",
+      "coloring": {
+        "changeHash": "0.22099937625397015",
+        "colorMapRef": "tfrfd"
+      }
+    },
+    "qMetaDef": {
+      "title": "DataInicioPrazoRenovacao",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "yZtxEv",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ContratoComDigito"
+      ],
+      "qFieldLabels": [
+        "ContratoComDigito"
+      ],
+      "qLabelExpression": "'Contrato'",
+      "title": "ContratoComDigito",
+      "coloring": {
+        "changeHash": "0.28349424090718234"
+      }
+    },
+    "qMetaDef": {
+      "title": "ContratoComDigito",
+      "description": "",
+      "tags": []
+    }
+  }
+]

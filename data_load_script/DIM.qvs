@@ -1,0 +1,38 @@
+///$tab DIM
+TabLuc:
+LOAD
+    idContrato,
+    "Nome Fantasia"	as	Lojista,
+    DataFim	AS	DataFimContrato,
+    ContratoComDigito,
+    LUC,
+    DataInicioOrigemContrato,
+    DataFimFormalContrato,
+    DataInicio,
+    ABL,
+    DataFimPrazoRenovacao,
+	StatusRenovacao,
+    OrdenacaoContratosRenovacao,
+    StatusVencimentoOriginal,
+	DepartamentoRenovacao,
+	PrazoDeVigenciaEmAnos,
+    PrazoVigenciaDescritivo,
+	DataInicioPrazoRenovacao,
+    ULtimaluc,
+    UltimoABL,
+    FlagPrazoRenovacaoEncerrando,
+    [Prazo Renovacao Vencendo],
+    UltimaLucLojista,
+    UltimoABLLojista,
+    FlagVigenciaContratoEncerrando,
+	[Prazo Vigencia Vencendo],
+    FlagLucTemporaria
+FROM 
+	[lib://2.Transform/TabLucDesconto.qvd](qvd)
+WHERE
+	StatusVencimento='Ativo' 
+    and (FlagLucTemporaria=0  AND FlagLucHangar=0 and FLagLucTeste=0)
+    //O unico deposito que pode entrar é o DP-01 ( Jerivá )
+    and (FlagLucDeposito=0 OR LUC = 'DP-01')
+    and NOT Match(ContratoComDigito,'00216-0','00924-5','00934-2')
+;

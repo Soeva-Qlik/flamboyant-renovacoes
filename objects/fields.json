@@ -1,0 +1,397 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 28,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 26,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "ABL",
+    "qCardinal": 247,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "ContratoComDigito",
+    "qCardinal": 255,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "Data",
+    "qCardinal": 75,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "DataFimContrato",
+    "qCardinal": 63,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "DataFimFormalContrato",
+    "qCardinal": 71,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "DataFimPrazoRenovacao",
+    "qCardinal": 71,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "DataInicio",
+    "qCardinal": 150,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "DataInicioOrigemContrato",
+    "qCardinal": 104,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "DataInicioPrazoRenovacao",
+    "qCardinal": 71,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "DepartamentoRenovacao",
+    "qCardinal": 2,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "FlagLucTemporaria",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "FlagPrazoRenovacaoEncerrando",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "FlagVigenciaContratoEncerrando",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "LUC",
+    "qCardinal": 255,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "Lojista",
+    "qCardinal": 251,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "OrdenacaoContratosRenovacao",
+    "qCardinal": 71,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "Prazo Renovacao Vencendo",
+    "qCardinal": 2,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "Prazo Vigencia Vencendo",
+    "qCardinal": 1,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "PrazoDeVigenciaEmAnos",
+    "qCardinal": 17,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "PrazoVigenciaDescritivo",
+    "qCardinal": 17,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "StatusRenovacao",
+    "qCardinal": 2,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "StatusVencimentoOriginal",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "ULtimaluc",
+    "qCardinal": 255,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "UltimaLucLojista",
+    "qCardinal": 251,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "UltimoABL",
+    "qCardinal": 247,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "UltimoABLLojista",
+    "qCardinal": 243,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "TabLuc"
+    ]
+  },
+  {
+    "qName": "ValorAluguelContratual",
+    "qCardinal": 5645,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "idContrato",
+    "qCardinal": 1248,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "TabLuc",
+      "Fato"
+    ]
+  }
+]

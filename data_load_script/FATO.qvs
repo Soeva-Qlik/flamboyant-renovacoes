@@ -1,0 +1,9 @@
+///$tab FATO
+Fato:
+LOAD
+	Hash128( textbetween(AnaliseDescontaContrato,'','-'), textbetween(AnaliseDescontaContrato,'-',''))	AS idContrato,
+	AnaliseDescontaCompetencia		AS	Data,
+	AnaliseDescontaValorFaturado	AS	ValorAluguelContratual
+FROM 
+	[lib://2.Transform/TabAnaliseDesconto.qvd](qvd)
+;
