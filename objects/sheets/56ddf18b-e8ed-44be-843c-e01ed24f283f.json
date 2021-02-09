@@ -1323,7 +1323,7 @@
                   "='O'"
                 ],
                 "qFieldLabels": [
-                  "Farol de Vencimento"
+                  "FAROL DE VENCIMENTO"
                 ],
                 "qSortCriterias": [
                   {
@@ -1534,7 +1534,7 @@
         "singleSelection": false,
         "selectionMode": "CONFIRM",
         "enableNavigation": false,
-        "fixHeader": false,
+        "fixHeader": true,
         "fixFooter": false,
         "fixLeft": false,
         "fixLeftCol": "1",

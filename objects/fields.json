@@ -219,7 +219,7 @@
   },
   {
     "qName": "DataInicioOrigemContrato",
-    "qCardinal": 103,
+    "qCardinal": 100,
     "qTags": [
       "$numeric",
       "$integer",
@@ -378,7 +378,7 @@
   },
   {
     "qName": "PrazoDeVigenciaEmAnos",
-    "qCardinal": 17,
+    "qCardinal": 16,
     "qTags": [
       "$numeric",
       "$integer"
@@ -389,7 +389,7 @@
   },
   {
     "qName": "PrazoVigenciaDescritivo",
-    "qCardinal": 17,
+    "qCardinal": 16,
     "qTags": [
       "$text",
       "$ascii"

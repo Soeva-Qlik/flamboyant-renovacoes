@@ -12,11 +12,11 @@
       "qFieldLabels": [
         "DataFimFormalContrato"
       ],
-      "qLabelExpression": "'Data Fim Contrato ( Formal )'",
+      "qLabelExpression": "'TERMINO DA VIGENCIA DO CONTRATO'",
       "title": "DataFimFormalContrato",
       "coloring": {
         "colorMapRef": "3b20ddb8-0d7b-4443-ac52-09d1692f62d1",
-        "changeHash": "0.07671635294826173"
+        "changeHash": "0.7318271489697117"
       }
     },
     "qMetaDef": {
@@ -38,11 +38,11 @@
       "qFieldLabels": [
         "DataInicioOrigemContrato"
       ],
-      "qLabelExpression": "'Data Inicio Contrato ( Formal )'",
+      "qLabelExpression": "'INICIO DE VIGENCIA DO CONTRATO'",
       "title": "DataInicioOrigemContrato",
       "coloring": {
         "colorMapRef": "67957779-2a98-4636-a731-4ab485289c60",
-        "changeHash": "0.002630035808304676"
+        "changeHash": "0.13377455543310246"
       }
     },
     "qMetaDef": {
@@ -64,11 +64,11 @@
       "qFieldLabels": [
         "PrazoVigenciaDescritivo"
       ],
-      "qLabelExpression": "'Prazo Vigencia ( Em Anos)'",
+      "qLabelExpression": "='PRAZO DE VIGENCIA'",
       "title": "PrazoVigenciaDescritivo",
       "coloring": {
         "colorMapRef": "8ff19463-70f8-40c2-aa98-5b5006450d4e",
-        "changeHash": "0.8372614203802828"
+        "changeHash": "0.9587688745885099"
       }
     },
     "qMetaDef": {
@@ -90,11 +90,11 @@
       "qFieldLabels": [
         "StatusRenovacao"
       ],
-      "qLabelExpression": "'Status Renovacao'",
+      "qLabelExpression": "'STATUS'",
       "title": "StatusRenovacao",
       "coloring": {
         "colorMapRef": "99540878-073b-450c-bcdf-696578d8936f",
-        "changeHash": "0.21353009493690034"
+        "changeHash": "0.4173644205751146"
       }
     },
     "qMetaDef": {
@@ -166,10 +166,10 @@
       "qFieldLabels": [
         "DataFimPrazoRenovacao"
       ],
-      "qLabelExpression": "'Fim Prazo Acao Renovatoria'",
+      "qLabelExpression": "'FIM DO PRAZO PARA ACAO RENOVATORIA'",
       "title": "DataFimPrazoRenovacao",
       "coloring": {
-        "changeHash": "0.28854745321054276",
+        "changeHash": "0.8222193639959108",
         "colorMapRef": "HnQGrn"
       }
     },
@@ -291,11 +291,11 @@
       "qFieldLabels": [
         "DepartamentoRenovacao"
       ],
-      "qLabelExpression": "'Departamento'",
+      "qLabelExpression": "'DEPTO.'",
       "title": "DepartamentoRenovacao",
       "coloring": {
-        "colorMapRef": "tfrfd",
-        "changeHash": "0.1358639351206279"
+        "colorMapRef": "d4bfd798-cec7-42e5-be36-97852bf1b683",
+        "changeHash": "0.6366576699260105"
       }
     },
     "qMetaDef": {
@@ -317,10 +317,11 @@
       "qFieldLabels": [
         "Lojista"
       ],
+      "qLabelExpression": "'NOME DE FANTASIA'",
       "title": "Lojista",
       "coloring": {
-        "colorMapRef": "DPFBxN",
-        "changeHash": "0.4521558469883329"
+        "colorMapRef": "fd09ca8f-d0fd-4f74-9b8c-aa8fe5bf1a3c",
+        "changeHash": "0.49399770497928674"
       }
     },
     "qMetaDef": {
@@ -441,10 +442,10 @@
       "qFieldLabels": [
         "DataInicioPrazoRenovacao"
       ],
-      "qLabelExpression": "'Inicio Prazo Acao Renovatoria'",
+      "qLabelExpression": "'INICIO DO PRAZO PARA ACAO RENOVATORIA'",
       "title": "DataInicioPrazoRenovacao",
       "coloring": {
-        "changeHash": "0.8750787147326973",
+        "changeHash": "0.11448458842614406",
         "colorMapRef": "tfrfd"
       }
     },
@@ -492,10 +493,11 @@
       "qFieldLabels": [
         "ContratoComDigito"
       ],
-      "qLabelExpression": "'Contrato'",
+      "qLabelExpression": "'CONTRATO'",
       "title": "ContratoComDigito",
       "coloring": {
-        "changeHash": "0.28349424090718234"
+        "changeHash": "0.2151176756788582",
+        "colorMapRef": "yZtxEv"
       }
     },
     "qMetaDef": {
